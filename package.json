@@ -1,0 +1,19 @@
+{
+  "name": "objectid-to-timestamp",
+  "description": "objectId to timestamp, in `ms`.",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "objectid",
+    "objectId",
+    "mongodb",
+    "timestamp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/objectid-to-timestamp"
+  },
+  "license": "MIT"
+}
