@@ -2,5 +2,5 @@
 
 module.exports = function objectIdToTimestamp(objectId) {
   return parseInt(objectId.slice(0, 8), 16) * 1000 + 
-         Math.round(parseInt(objectId.slice(-6), 16) / 16777.216);
+         Math.floor(parseInt(objectId.slice(-6), 16) / 16777.217); // convert 0x000000 ~ 0xffffff to 0 ~ 999
 };
