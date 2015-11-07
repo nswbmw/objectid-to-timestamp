@@ -12,7 +12,7 @@ npm i objectid-to-timestamp --save
 
 ```
 var objectIdToTimestamp = require('objectid-to-timestamp');
-objectIdToTimestamp('563229dd1ee6030100644cbe');// 1446128093392
+objectIdToTimestamp('563229dd1ee6030100644cbe');// 1446128093391
 ```
 
 ### Test
